@@ -8,7 +8,7 @@ int main(){
     cont = 0;
 
 
-    while (cont < 5)
+    while (cont < 100)
     {
         scanf("%i", &n);
 
