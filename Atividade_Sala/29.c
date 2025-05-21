@@ -3,11 +3,11 @@
 int main(){
 
     int x,y;
-
     
-    while (x != y)
-    {
-        scanf("%i %i", &x, &y);
+
+    scanf("%i %i", &x, &y);
+    while (x != y) {
+        
         
         if (x > y)
         {
@@ -20,7 +20,7 @@ int main(){
         }
         
         
-    
+        scanf("%i %i", &x, &y);
     }
     
 
